@@ -1,12 +1,32 @@
 /**
  * Place your custom styles here.
  */
+body{background: #cccccc}
+#topbar{padding: 0px; background: #112702; margin: 0 auto; width: 100%;}
+.main-container{padding: 0px; background: #fff; margin: 0 auto; width: 100%;}
+.container{padding: 0 50px 0 50px; margin: 0 auto; width: 100%;}
+h5{font-size: 20px; font-weight: none}
+.node_body p{font-size: 18px; font-weight: none}
 
-.main-container{padding: 10px; background: #fff}
-body{background: #cccccc }
-.pane-ip-geoloc-geocode-address{background-color: #f3feeb; padding: 10px; }
+.pane-ip-geoloc-geocode-address{background-color: #f3feeb; padding: 10px;}
 /*.panel-3col-stacked{background: #f3feeb;}
 .pane-sell-posts{background-color: #ffffff; padding: 10px; border: 1px solid #f7f7f7;}
 .pane-property-rent{background-color: #ffffff; padding: 10px; border: 1px solid #f7f7f7;}
 .pane-buy-posts{background-color: #ffffff; padding: 10px; border: 1px solid #f7f7f7;}*/
 h2.title{font-size: 18px;}
+ul.menu{border-bottom: 4px solid #cccccc;}
+ul.menu > li{font-size: 20px; float:left;}
+ul>.menu > li>a{
+	padding-left: 30px;
+    padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: red;
+}
+ul.menu >li> a.active{opacity: .6;}
+
+
+.span8{float:left; margin-right: 5px;}
+.span4{float:left;}
+.grid_post_title a{font-size: 20px}
+p.grid_post_body{font-size: 18px;}
